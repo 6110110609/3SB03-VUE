@@ -13,7 +13,8 @@
       <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" />
     </q-carousel>
     <div class="column items-center q-pa-md q-gutter-sm" style="height: 150px">
-      <q-btn icon="home" label="AboutMe" @click="$router.replace('/AboutMe')" glossy color="purple" />
+      <q-btn icon="home" label="AboutMe"
+      @click="$router.replace('/AboutMe')" glossy color="purple" />
     </div>
   </div>
 </template>
